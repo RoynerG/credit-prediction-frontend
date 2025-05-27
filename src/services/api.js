@@ -7,7 +7,7 @@ export function predictCredit(data) {
 }
 
 export function getRecommendation(prompt) {
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBKIVgOmXwCNllC6Gc_KzuEx1g9oWZBNKE`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=`;
 
   return axios
     .post(
